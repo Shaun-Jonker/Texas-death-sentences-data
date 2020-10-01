@@ -29,7 +29,7 @@ print("numbers:", number)
 nbars = len(common)
 print("nbars:", nbars)
 
-plt.figure(figsize=(17, 8))
+plt.figure(figsize=(19, 10))
 plt.bar(np.arange(nbars), number, tick_label=labels)
 plt.title("Number Of Death Sentences By County")
 plt.ylabel("Number Of Death Sentences")
